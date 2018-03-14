@@ -23,7 +23,7 @@
       }
     },
     created:function(){
-       console.log("create...")
+       //console.log("create...")
     },
     components:{
       Loading
@@ -32,11 +32,11 @@
       ...mapActions([ 'login'])
     },
     mounted(){
-      console.log("mounted...")
+      //console.log("mounted...")
     },
 
     updated:function(){
-      console.log("create...")
+      //console.log("updated...")
     },
 
     computed: {
@@ -47,6 +47,7 @@
 
 <style>
   body{ font-size: 14px; padding: 0; margin: 0;}
+  .topMenu{ padding: 20px 0;}
   .iptUser{width: 300px; height: 30px; margin:20px 0; padding-left: 5px; font-size:16px; background: #fff; border: #ccc solid 1px; line-height: 30px;}
   .parentDiv{ width:400px; height: 100%; margin:0 auto;}
   .tips{ padding: 10px 0; color: #f04d4e;}

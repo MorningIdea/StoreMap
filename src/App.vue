@@ -1,12 +1,19 @@
 <template>
   <div id="app">
+    <Dheader></Dheader>
     <router-view/>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'Dheader': (resolve) => {
+      require(['./components/Header'], resolve)
+    }
+  }
 }
 </script>
 

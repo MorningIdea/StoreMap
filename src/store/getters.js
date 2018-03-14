@@ -1,4 +1,3 @@
-console.log("getters...")
 export const stateUser = state => state.user;
 export const stateDataList = state => state.dataList;
 export const stateLoading = state => state.loadingStatus;
